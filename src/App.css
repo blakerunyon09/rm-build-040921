@@ -1,0 +1,44 @@
+.character-list {
+  padding-inline-start: 0;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  text-align: center;
+  list-style-type: none;
+}
+.character-list img {
+  width: 250px;
+}
+
+.favorites-list {
+  padding-inline-start: 0;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  min-height: 500px;
+  max-height: max-content;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  list-style-type: none;
+  background-color: rgb(255, 217, 0);
+}
+
+.favorites-list img{
+  width: 200px;
+}
+
+.favorites-list .card {
+  width: 220px;
+}
+
+.card {
+  box-shadow: 0 0 25px 5px rgb(212, 212, 212);
+  width: 300px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: max-content;
+  background-color: white;
+}
